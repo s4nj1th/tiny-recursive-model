@@ -50,7 +50,7 @@ x_{\text{emb}} = W_{\text{in}} x + b_{\text{in}}, \quad
 x_{\text{emb}} \in \mathbb{R}^{1 \times d}
 $$
 
-where $d = \texttt{hidden\_dim}$ (default $512$).
+where $d = \texttt{hiddenDim}$ (default $512$).
 
 ### Internal States
 
@@ -243,7 +243,7 @@ containing only:
 Reload with:
 
 $$
-\theta \leftarrow \texttt{load\_state\_dict}(\cdot)
+\theta \leftarrow \text{loadStateDict}(\cdot)
 $$
 
 and switch to eval mode.
@@ -280,3 +280,5 @@ and switch to eval mode.
 ## Credits
 
 This project demonstrates that _explicit iterative refinement_ can substitute depth, at least for structured reasoning tasks like Sudoku. It is intentionally minimal, interpretable, and hackable.
+
+> _**Note**: Some of the variable names are written in camel case inside the LaTeX blocks due to limitations with the markdown parser used._
