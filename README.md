@@ -18,8 +18,8 @@ To learn more about how this project is setup and the model works, see the [docu
 To install the Tiny Reasoning Model, clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/s4nj1th/tiny-reasoning-model.git
-cd tiny-reasoning-model
+git clone https://github.com/s4nj1th/tiny-recursive-model.git
+cd tiny-recursive-model
 pip install -r requirements.txt
 ```
 
@@ -34,7 +34,7 @@ pip install -r requirements.txt
    - Ensure you have a compatible GPU if you plan to train the model.
    - Store the dataset of sudoku puzzles in the `data/` directory (as `sudoku.csv`).
 
-1. Run the `tiny-reasoning-model.ipynb` notebook.
+1. Run the `tiny-recursive-model.ipynb` notebook.
 
    - This trains and tests the TRM on sudoku puzzles.
    - The models are saved at `checkpoints/`.

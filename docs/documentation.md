@@ -16,7 +16,7 @@ This project is intentionally lightweight and pedagogical. The goal is clarity o
 
 ## Project Structure
 
-- `tiny-reasoning-model/tiny-reasoning-model.ipynb` - main notebook (model definition, dataset, trainer, training & inference utilities).
+- `tiny-recursive-model/tiny-recursive-model.ipynb` - main notebook (model definition, dataset, trainer, training & inference utilities).
 - `data/sudoku.csv` - expected dataset (CSV with quizzes and solutions columns).
 - `docs/documentation.md` - this file.
 - `checkpoints/` - directory where checkpoint files are saved by default.
