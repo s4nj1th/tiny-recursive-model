@@ -133,3 +133,5 @@ __marimo__/
 .streamlit/secrets.toml
 
 data/
+
+*.pt

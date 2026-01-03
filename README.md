@@ -37,7 +37,7 @@ pip install -r requirements.txt
 1. Run the `tiny-reasoning-model.ipynb` notebook.
 
    - This trains and tests the TRM on sudoku puzzles.
-   - The best model is saved as `trm_sudoku_model.pth`.
+   - The models are saved at `checkpoints/`.
 
 2. Run the `main.py` script to input a sudoku puzzle and get the solution.
 
