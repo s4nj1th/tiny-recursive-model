@@ -1,4 +1,5 @@
 <div align="center">
+    <img src="assets/logo.png" width="50%"/>
     <h1><strong>TRM</strong>: Tiny Recursive Model</h1>
 </div>
 
