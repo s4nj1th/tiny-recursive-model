@@ -1,8 +1,8 @@
-# Tiny Reasoning Model (TRM) – Technical Documentation
+# Tiny Recursive Model (TRM) – Technical Documentation
 
 ## Overview
 
-The **Tiny Reasoning Model (TRM)** is a compact, iterative neural architecture designed to emulate a _reasoning-style_ refinement process for **Sudoku solving**. Rather than relying on deep transformer stacks, TRM uses explicit **inner–outer iterative loops** to repeatedly refine latent hypotheses before committing to an output.
+The **Tiny Recursive Model (TRM)** is a compact, iterative neural architecture designed to emulate a _reasoning-style_ refinement process for **Sudoku solving**. Rather than relying on deep transformer stacks, TRM uses explicit **inner–outer iterative loops** to repeatedly refine latent hypotheses before committing to an output.
 
 Formally, the model learns a function
 

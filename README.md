@@ -1,5 +1,5 @@
 <div align="center">
-    <h1><strong>TRM</strong>: Tiny Reasoning Model</h1>
+    <h1><strong>TRM</strong>: Tiny Recursive Model</h1>
 </div>
 
 This is a project aimed to create a lightweight TRM that can solve sudoku puzzles using logical reasoning techniques. The model is designed to be efficient and easy to use, making it suitable for educational purposes and small-scale applications.
@@ -15,7 +15,7 @@ To learn more about how this project is setup and the model works, see the [docu
 
 ## Installation
 
-To install the Tiny Reasoning Model, clone the repository and install the required dependencies:
+To install the Tiny Recursive Model, clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/s4nj1th/tiny-recursive-model.git
